@@ -26,7 +26,7 @@ const INVITACION = {
 
   tituloGaleria: "Una historia que<br>seguimos escribiendo",
 
-  dressCode: "Elegante",
+  dressCode: "FORMAL",
   dressText: "Queremos que te sientas cómodo/a y disfrutes con nosotros. Evita vestir de blanco y azul.",
 
   direccion: "Escribe aquí la dirección completa del evento.",
@@ -38,6 +38,7 @@ const INVITACION = {
 
   textoRegalos: "Si deseas obsequiarnos algo, aquí puedes colocar el enlace de tu mesa de regalos.",
   mesaRegalos: "https://www.amazon.com.mx/wedding/guest-view/39J4GGWQDWQHF",
+
   mesaRegalos2: "https://mesaderegalos.liverpool.com.mx/milistaderegalos/60049556",
 
   textoConfirmacion: "Confirma tu asistencia para ayudarnos a preparar todo con mucho cariño.",
