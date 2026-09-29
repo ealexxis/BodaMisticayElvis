@@ -16,6 +16,7 @@ const INVITACION = {
 
   bienvenidaTitulo: "Queremos compartir<br>este día contigo",
   bienvenidaTexto: "Hay momentos en la vida que merecen ser celebrados y personas que hacen que sean inolvidables. Nos encantará contar con tu presencia.",
+  biblicoTexto: "El amor es paciente, es bondadoso. El amor no es envidioso ni orgulloso. Todo lo disculpa, todo lo cree, todo lo espera y todo lo soporta.<br>Corintios 13:4-7",
   textoCuenta: "Cada vez falta menos para celebrar juntos.",
 
   ceremonia: "18 de Diciembre de 2026<br>17:00 hrs.",

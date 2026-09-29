@@ -3,7 +3,7 @@ document.documentElement.style.setProperty("--principal",C.colorPrincipal);
 document.documentElement.style.setProperty("--fondo",C.colorFondo);
 document.documentElement.style.setProperty("--texto",C.colorTexto);
 
-const ids={intro:C.textoPortada,bride:C.novia,groom:C.novio,date:C.fechaVisible,welcomeTitle:C.bienvenidaTitulo,welcomeText:C.bienvenidaTexto,countText:C.textoCuenta,ceremony:C.ceremonia,ceremonyPlace:C.lugarCeremonia,reception:C.recepcion,receptionPlace:C.lugarRecepcion,galleryTitle:C.tituloGaleria,dress:C.dressCode,dressText:C.dressText,address:C.direccion,rsvpText:C.textoConfirmacion,footerNames:`${C.novia} & ${C.novio}`,footerText:C.pieTexto};
+const ids={intro:C.textoPortada,bride:C.novia,groom:C.novio,date:C.fechaVisible,welcomeTitle:C.bienvenidaTitulo,welcomeText:C.bienvenidaTexto, biblicoText:C.biblicoTexto,countText:C.textoCuenta,ceremony:C.ceremonia,ceremonyPlace:C.lugarCeremonia,reception:C.recepcion,receptionPlace:C.lugarRecepcion,galleryTitle:C.tituloGaleria,dress:C.dressCode,dressText:C.dressText,address:C.direccion,rsvpText:C.textoConfirmacion,footerNames:`${C.novia} & ${C.novio}`,footerText:C.pieTexto};
 for(const [id,v] of Object.entries(ids)) document.getElementById(id).innerHTML=v;
 for(const id of ["map2","maps"]) document.getElementById(id).href=C.mapa;
 for(const id of ["map1","maps"]) document.getElementById(id).href=C.mapa2;
