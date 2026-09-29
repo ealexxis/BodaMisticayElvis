@@ -10,6 +10,8 @@ for(const id of ["map1","maps"]) document.getElementById(id).href=C.mapa2;
 document.getElementById("gift").href=C.mesaRegalos;
 document.getElementById("gift2").href=C.mesaRegalos2;
 document.getElementById("rsvp").href=C.formularioRSVP;
+document.getElementById("rsvp1").href=C.formularioNovio;
+//document.getElementById("rsvp2").href=C.formularioGoogle;
 document.getElementById("music").src=C.cancion;
 
 const target=new Date(C.fechaEvento);

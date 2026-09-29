@@ -43,6 +43,8 @@ const INVITACION = {
 
   textoConfirmacion: "Confirma tu asistencia para ayudarnos a preparar todo con mucho cariño.",
   formularioRSVP: "https://wa.me/529931743503?text=¡Hola!%20Confirmo%20mi%20asistencia%20a%20su%20boda.",
+  formularioNovio: "https://wa.me/525951164145?text=¡Hola!%20Confirmo%20mi%20asistencia%20a%20su%20boda.",
+  //formularioGoogle: "https://wa.me/525951164145?text=¡Hola!%20Confirmo%20mi%20asistencia%20a%20su%20boda.",
 
   // Sube tu canción a assets/cancion.mp3
   cancion: "assets/cancion.mp3",
