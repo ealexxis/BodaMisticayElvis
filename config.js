@@ -43,8 +43,8 @@ const INVITACION = {
   mesaRegalos2: "https://mesaderegalos.liverpool.com.mx/milistaderegalos/60049556",
 
   textoConfirmacion: "Confirma tu asistencia para ayudarnos a preparar todo con mucho cariño.",
-  formularioRSVP: "https://wa.me/529931743503?text=¡Hola!%20Confirmo%20mi%20asistencia%20a%20su%20boda.",
-  formularioNovio: "https://wa.me/525951164145?text=¡Hola!%20Confirmo%20mi%20asistencia%20a%20su%20boda.",
+  formularioRSVP: "https://wa.me/529931743503?text=¡Hola!%20Mistica%20Confirmo%20mi%20asistencia%20a%20su%20boda.%20Seremos%20[Numero]%20personas%20en%20total:%20[Tu%20nombre]%20y%20[Nombre%20de%20tu%20acompañante].%20¡Agradecemos%20mucho%20la%20invitación%20y%20ahí%20estaremos%20puntuales!",
+  formularioNovio: "https://wa.me/525951164145?text=¡Hola!%20Elvis%20Alexis%20Confirmo%20mi%20asistencia%20a%20su%20boda.%20Seremos%20[Numero]%20personas%20en%20total:%20[Tu%20nombre]%20y%20[Nombre%20de%20tu%20acompañante].%20¡Agradecemos%20mucho%20la%20invitación%20y%20ahí%20estaremos%20puntuales!",
   //formularioGoogle: "https://wa.me/525951164145?text=¡Hola!%20Confirmo%20mi%20asistencia%20a%20su%20boda.",
 
   // Sube tu canción a assets/cancion.mp3
