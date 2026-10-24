@@ -31,6 +31,7 @@ body{margin:0;background:var(--fondo);color:var(--texto);font-family:Montserrat,
 .icon{font-size:30px;color:var(--principal)}
 .event-card h3{font:500 30px "Cormorant Garamond";margin:8px}
 .event-card p{line-height:1.7;font-size:13px}
+.event-card p1{line-height:1.7;font-size:15px}
 .muted{opacity:.9}
 .gallery{background:#f8f1eb}
 .photos{display:grid;grid-template-columns:1fr 1fr;gap:10px}
