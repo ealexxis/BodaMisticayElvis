@@ -23,3 +23,21 @@ btn.onclick=()=>audio.paused?audio.play().then(()=>btn.textContent="❚❚"): (a
 
 const io=new IntersectionObserver(e=>e.forEach(x=>x.isIntersecting&&x.target.classList.add("show")),{threshold:.12});
 document.querySelectorAll(".reveal").forEach(x=>io.observe(x));
+
+document.addEventListener('DOMContentLoaded', () => {
+  // Obtener parámetros de la URL
+  const params = new URLSearchParams(window.location.search);
+
+  // Leer las variables
+  const adultos = params.get('adultos') || '1'; // Valor por defecto: 1
+  const ninos = params.get('ninos') || '0';     // Valor por defecto: 0
+  const nombre = params.get('nombre');          // Opcional: Nombre del invitado
+
+  // Actualizar el DOM
+  document.getElementById('num-adultos').textContent = adultos;
+  document.getElementById('num-ninos').textContent = ninos;
+
+  if (nombre) {
+    document.getElementById('nombre-invitado').textContent = decodeURIComponent(nombre);
+  }
+});

@@ -39,18 +39,18 @@
     <p class="hint">Toca para comenzar</p>
 </section>
 
-<section class="section reveal">
+<section class="section dark reveal">
     <p class="eyebrow">CON MUCHO AMOR</p>
     <h2 id="welcomeTitle"></h2>
-    <p class="text" id="welcomeText"></p>
-    <div class="ornament">❀</div>
+    <p class="text1" id="welcomeText"></p>
+    <div class="ornament1">❀</div>
 </section>
 
 <!-- NUEVO APARTADO DE PADRES Y PADRINOS -->
-<section class="section dark reveal">
+<section class="section reveal">
     <p1>Guiados por la bendición de Dios y el amor incondicional de nuestros padres, nos llena de alegría dar este gran paso y celebrar nuestro amor.</p1>
     
-    <div class="event-card">
+    <div class="event-card1">
         <h2>Padres de la Novia</h2>
         <p1  style="margin-bottom: 100px;">Sr. José Luis López Torres<br>Sra. Maria Isabel Ramírez Pérez</p1>
         
@@ -66,7 +66,7 @@
     </div>
 </section>
 
-<section class="section reveal">
+<section class="section dark reveal">
     <p class="eyebrow">LA CUENTA REGRESIVA</p>
     <div class="countdown">
         <div>
@@ -89,6 +89,17 @@
     <p class="text1" id="countText"></p>
 </section>
 
+<section class="section gallery reveal">
+    <p class="text1">Cada día sumamos una página más a esta historia, pero el mejor capítulo está por comenzar.</p>
+    <h2 id="galleryTitle"></h2>
+    <div class="photos">
+        <img class="photo" src="assets/foto1.jpg" alt="">
+        <img class="photo" src="assets/foto2.jpg" alt="">
+        <img class="photo" src="assets/foto3.jpg" alt="">
+        <img class="photo" src="assets/foto4.jpg" alt="">
+    </div>
+</section>
+
 <section class="section dark reveal">
     <h2>Ceremonia &amp;<br>Recepción</h2>
     
@@ -109,14 +120,20 @@
     </div>
 </section>
 
-<section class="section gallery reveal">
-    <p class="text1">Cada día sumamos una página más a esta historia, pero el mejor capítulo está por comenzar.</p>
-    <h2 id="galleryTitle"></h2>
-    <div class="photos">
-        <img class="photo" src="assets/foto1.jpg" alt="">
-        <img class="photo" src="assets/foto2.jpg" alt="">
-        <img class="photo" src="assets/foto3.jpg" alt="">
-        <img class="photo" src="assets/foto4.jpg" alt="">
+
+
+<!-- MESA DE REGALOS -->
+<section class="section gift-card-container reveal">
+    <div class="gift-ornament">MESA DE REGALOS</div>
+
+    <div class="gift-card">
+        <h2 class="gift-title">Tu compañia es lo mas valioso para nosotros.</h2>
+        <p class="gift-footer-text" id="giftText">Si además deseas tener un detalle especial con nosotros, aquí encontrarás algunas sugerencias que nos harán mucha ilusión.</p>
+        <p></p>
+        <div class="gifts-buttons">
+            <a class="button gift-btn" id="gift" target="_blank">Amazon</a>
+            <a class="button gift-btn" id="gift2" target="_blank">Liverpool</a>
+        </div>
     </div>
 </section>
 
@@ -133,19 +150,37 @@
     <a class="button filled" id="maps" target="_blank">Abrir Google Maps</a>
 </section>
 
-<!-- MESA DE REGALOS -->
-<section class="section gift-card-container reveal">
-    <div class="gift-ornament">MESA DE REGALOS</div>
-
-    <div class="gift-card">
-        <h2 class="gift-title">Tu compañia es lo mas valioso para nosotros.</h2>
-        <p class="gift-footer-text" id="giftText">Si además deseas tener un detalle especial con nosotros, aquí encontrarás algunas sugerencias que nos harán mucha ilusión.</p>
-        <p></p>
-        <div class="gifts-buttons">
-            <a class="button gift-btn" id="gift" target="_blank">Amazon</a>
-            <a class="button gift-btn" id="gift2" target="_blank">Liverpool</a>
-        </div>
+<!-- Sección Ticket de Entrada -->
+<section class="ticket-container">
+  <div class="ticket">
+    <div class="ticket-header">
+      <span class="ticket-badge">PASE DE ENTRADA</span>
+      <h2>HEMOS RESERVADO EN TU HONOR LOS SIGUIENTES LUGARES</h2>
     </div>
+    
+    <div class="ticket-divider">
+      <div class="notch notch-left"></div>
+      <div class="notch notch-right"></div>
+    </div>
+
+    <div class="ticket-body">
+      <div class="ticket-info">
+        <p class="guest-label"></p>
+        <p class="guest-name" id="nombre-invitado">Invitado(s) Especial(es)</p>
+      </div>
+
+      <div class="ticket-details">
+        <div class="detail-box">
+          <span class="detail-number" id="num-adultos">1</span>
+          <span class="detail-label">Adulto(s)</span>
+        </div>
+        <div class="detail-box">
+          <span class="detail-number" id="num-ninos">0</span>
+          <span class="detail-label">Niño(s)</span>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 
 <section class="section dark reveal">
