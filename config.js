@@ -40,7 +40,7 @@ const INVITACION = {
   textoRegalos: "Si deseas obsequiarnos algo, aquí puedes colocar el enlace de tu mesa de regalos.",
   mesaRegalos: "https://www.amazon.com.mx/wedding/guest-view/39J4GGWQDWQHF",
   mesaRegalos2: "https://mesaderegalos.liverpool.com.mx/milistaderegalos/60049556",
-  mesaRegalos23:"https://www.sears.com.mx/Mesa-de-Regalos/289496/nuestra-boda-mistica-gabriela-elvis-alexis",
+  mesaRegalos3: "https://www.sears.com.mx/Mesa-de-Regalos/289496/nuestra-boda-mistica-gabriela-elvis-alexis",
 
   textoConfirmacion: "Nos haría muy felices contar contigo. Por favor, confírmanos tu asistencia antes del 15 DE NOVIEMBRE para organizarlo todo con mucho cariño.",
   formularioRSVP: "https://wa.me/529931743503?text=¡Hola!%20Mistica%20Confirmo%20mi%20asistencia%20a%20su%20boda.%20Seremos%20[Numero]%20personas%20en%20total:%20[Tu%20nombre]%20y%20[Nombre%20de%20tu%20acompañante].%20¡Agradecemos%20mucho%20la%20invitación%20y%20ahí%20estaremos%20puntuales!",
